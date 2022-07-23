@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+
+  background-image: url("https://i.pinimg.com/564x/c4/df/4d/c4df4d0b2f55945d10782000ad5b58a9.jpg");
+
+  position: absolute;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
