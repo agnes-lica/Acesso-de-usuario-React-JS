@@ -1,0 +1,44 @@
+p {
+  font-size: 40px;
+  font-weight: 800;
+
+  background-color: rgb(226, 43, 43);
+  color: aliceblue;
+
+  padding: 20px;
+
+  border-radius: 10px;
+}
+
+button {
+  width: 30%;
+  height: 3rem;
+
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(141, 84, 192, 1) 38%,
+    rgba(167, 81, 172, 1) 84%,
+    rgba(252, 70, 107, 1) 100%
+  );
+
+  border: none;
+
+  border-radius: 30px;
+
+  color: white;
+  font-size: large;
+  font-weight: 700;
+}
+
+button:hover {
+  background: radial-gradient(
+    circle,
+    rgba(252, 70, 107, 1) 0%,
+    rgba(167, 81, 172, 1) 39%,
+    rgba(141, 84, 192, 1) 79%,
+    rgba(52, 66, 253, 1) 98%
+  );
+
+  cursor: pointer;
+}
